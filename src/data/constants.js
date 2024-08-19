@@ -12,9 +12,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1eG3nrUgy5H4s2OhmTtDuZofdaCy3u-Hn/view?usp=drivesdk",
   linkedin: "https://www.linkedin.com/in/gaurav-lagad-9431bb22b",
-  twitter: "#",
-  insta: "#",
-  facebook: "#",
+  hackerrank: "https://www.hackerrank.com/profile/gauravlagad22521",
+  insta: "https://www.instagram.com/gauravlagad_9696",
+  github: "https://github.com/gauravlagad96/",
 };
 
 export const skills = [
@@ -58,7 +58,7 @@ export const skills = [
       {
         name: "Spring",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+          "https://img.icons8.com/?size=96&id=90519&format=png",
       },
       {
         name: "Spring Boot",
@@ -194,33 +194,21 @@ export const projects = [
       " The food ordering system is MERN Stack Ecommerce Project. The proposed system is developed to manage ordering activities in fast food restaurant. These systems will ultimately allow you to better manage resources ",
     image:
       {portfolioScreen},
-    tags: ["HTML5 & CSS3", "Bootstrap", "Javascript", "MERN Technology"],
+    tags: ["HTML5", "Tailwind css", "ReactJs", "Spring Boot","MUI"],
     category: "web app",
     github: "",
   },
+  
   {
     id: 1,
-    title: "Agri-Boost",
-    date: "May 2023 - Jul 2023",
-    description:
-      "The Agri-Boost has been developed to manage the fertilizer in the store. This system improves the method of taking the order from customer. This system also provides a report generation system in which user can generate weekly, monthly, yearly reports.",
-    image:
-      "https://github.com/HusenMujawar/Agri-Boost/blob/main/Screenshot%202024-01-08%20141022.png?raw=true",
-    tags: ["Html", "CSS", "Javascript", "PHP", "MYSQL"],
-    category: "web app",
-    github: "https://github.com/HusenMujawar/Agri-Boost.git",
-  },
-  {
-    id: 2,
     title: "Portfolio website",
     date: "Jan 2024",
     description:
       "A portfolio react based responsive website. This project showcases my skills, projects, and experiences as a web developer.",
-    image:
-      "#",
+    image:"https://drive.google.com/file/d/1fAlJi0mGxL6mHJou2BB3pSqLNA9O7Zmo/view?usp=drivesdk",
     tags: ["HTML5", "CSS", "Javascript", "ReactJS"],
     category: "web app",
-    github: "https://github.com/HusenMujawar/Portfolio.git",
+    github: "https://github.com/gauravlagad96/portfolio",
   },
 
 ];

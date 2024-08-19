@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
+import { FaGithub } from "react-icons/fa";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { SiHackerrank } from "react-icons/si";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 
@@ -96,10 +97,10 @@ function Footer() {
           <NavLink href="#contact">Contact</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
-          {/* <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon> */}
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon title='GitHub' href={Bio.github} target="display"><FaGithub /></SocialMediaIcon>
+          <SocialMediaIcon title='Linkdin' href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon title='HackerRank' href={Bio.hackerrank} target="display"><SiHackerrank /></SocialMediaIcon>
+          <SocialMediaIcon title='Instagram' href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2024 Gaurav Lagad. All rights reserved.
